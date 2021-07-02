@@ -1,0 +1,1 @@
+"D:\it\Software\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-4ggv4tv70a19c6b0 --n functions --r  --project D:\it\Project\miniprogram\MyProject\CalorieManager

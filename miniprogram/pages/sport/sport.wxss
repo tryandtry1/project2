@@ -1,0 +1,65 @@
+.calendar {
+  width: 90%;
+  margin: 30rpx auto;
+  display: flex;
+  font-size: 45rpx;
+  font-weight: bold;
+}
+
+.calendarPicker {
+  margin-left: 20rpx;
+}
+
+
+.sportTip {
+  text-align: center;
+  width: 90%;
+  margin: 50% auto;
+  font-size: 40rpx;
+  color:rgb(185, 182, 182)
+}
+
+
+
+.sportRecordContent {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+
+}
+
+.sportRecord {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10rpx;
+  padding: 20rpx;
+  background: rgb(250, 249, 249);
+  display: flex;
+  justify-content: space-between;
+  /* font-size: 35rpx; */
+}
+
+.delete .delete-icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+
+.totalCalorie {
+  width: 90%;
+  margin: 50rpx auto;
+  text-align: center;
+  
+}
+
+
+.add {
+  position: absolute;
+  bottom: 2%;
+  left: 40%;
+}
+
+.add .add-image {
+  width: 90rpx;
+  height: 90rpx;
+}

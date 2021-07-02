@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/category/category",
+    "pages/sport/sport",
+    "pages/category/foodList/foodList",
+    "pages/sport/sportAdd/sportAdd"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#34CE57",
+    "navigationBarTitleText": "卡路里管家",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+
+
+  "tabBar":{
+    "selectedColor": "#EEDD82",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/tabBar/index.png",
+        "selectedIconPath":"images/tabBar/index1.png"
+      },
+      {
+        "pagePath":"pages/category/category",
+        "text":"分类",
+        "iconPath":"images/tabBar/category.png",
+        "selectedIconPath":"images/tabBar/category1.png"
+      },
+      {
+        "pagePath":"pages/sport/sport",
+        "text":"运动",
+        "iconPath":"images/tabBar/category.png",
+        "selectedIconPath":"images/tabBar/category1.png"
+      },
+      {
+        "pagePath":"pages/user/user",
+        "text":"个人中心",
+        "iconPath":"images/tabBar/user.png",
+        "selectedIconPath":"images/tabBar/user1.png"
+      }
+    ]
+  }
+
+}

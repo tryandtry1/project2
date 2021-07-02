@@ -1,0 +1,54 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "云函数",
+          "pathName": "pages/cloudfunction/cloudfunction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分类页",
+          "pathName": "pages/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "食物列表页",
+          "pathName": "pages/category/foodList/foodList",
+          "query": "id=3",
+          "scene": null
+        },
+        {
+          "name": "测试页",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "运动页",
+          "pathName": "pages/sport/sport",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "添加运动页",
+          "pathName": "pages/sport/sportAdd/sportAdd",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

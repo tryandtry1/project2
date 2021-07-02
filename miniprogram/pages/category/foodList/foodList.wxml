@@ -1,0 +1,46 @@
+<!--  搜索框  -->
+<view class='search'>
+  <!-- 图标 -->
+  <image class="" src='/images/search.png' bindtap='query'></image>
+  <!-- 输入框 -->
+  <input class='' type='text' placeholder='请输入食物名称' confirm-type='search' value="{{inputValue}}" bindinput='inputBind'
+    bindconfirm='query'></input>
+</view>
+
+
+<!-- 排序 -->
+<view class="fl-sort">
+  <!-- 正常排序 -->
+  <view class="sort-normal">
+    <view class="sort-title">排序规则：</view>
+    <picker class="sort-kind" range="{{sortKind}}" value="{{sortIndex}}" bindchange="bindSortChange">
+      <view class="nowText">{{sortKind[sortIndex]}}</view>
+    </picker>
+    <view class="arrow">
+      <image class="arrow-img" src="/images/arrow.svg"></image>
+    </view>
+  </view>
+  <!-- 颠倒排序 -->
+  <view class="sort-reverse" bindtap="sortReverse">
+    <view class="sr-title">{{sortReverse}}</view>
+    <view class="arrow">
+      <image class="{{arrowRotate}}" src="/images/arrow.svg"></image>
+    </view>
+  </view>
+</view>
+
+
+<!-- 食物列表 -->
+<view class="food-list">
+  <view class="fl-item" wx:for="{{foodData}}">
+    <view class="fl-left">
+      <view class="fl-title">{{foodName[index]}}</view>
+      <view class="fl-heat">{{foodDataPrefix[foodDataPrefixIndex]}}:{{item}}/100g</view>
+    </view>
+    <view class="fl-right">
+      <view class="arrow">
+        <image class="arrow-img" src="/images/arrow.svg"></image>
+      </view>
+    </view>
+  </view>
+</view>
